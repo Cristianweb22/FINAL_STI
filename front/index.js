@@ -99,7 +99,7 @@ btn_protomeal.addEventListener('click', (e)=>{
     temp.forEach(i => {
         slide_arr.push(i)
     })
-    postEndpoint();
+    //postEndpoint();
     getMain();
     //console.log(slide_arr);
 })
